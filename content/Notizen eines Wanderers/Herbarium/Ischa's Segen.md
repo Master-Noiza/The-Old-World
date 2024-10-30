@@ -34,33 +34,32 @@
 <br>
 
 ## Beschreibung:
-- Die äußerst seltene Beere wächst in unberührten Waldgebieten an üppigen Sträuchern, vornehmlich auf Lichtungen in der Nähe von klaren Gewässern.
-- Der Goldbeerstrauch reagiert äußerst empfindlich auf Trockenheit, verschmutztes Wasser und andere Einflüsse.
-- Die heilende Wirkung scheint stark vom Einfluß der [Winde der Magie](app://obsidian.md/Die%20Winde%20der%20Magie) abzuhängen.
-- Gerüchten zufolge vermögen die [Asrai](app://obsidian.md/Asrai) die anspruchsvolle Pflanze zu kultivieren.
-<br>
+Die Goldbeere, auch bekannt als *Ischa's Segen*, ist eine äußerst seltene, goldschimmernde Beere, die vornehmlich in unberührten Wäldern wächst. Sie gedeiht an üppigen Sträuchern auf Lichtungen, oft nahe kristallklarer Fließgewässer. Der Goldbeerstrauch reagiert extrem empfindlich auf Trockenheit, verschmutztes Wasser und andere schädliche Umwelteinflüsse. Es wird berichtet, dass die [Asrai](https://warhammerfantasy.fandom.com/wiki/Wood_Elves), in der Lage sind, die anspruchsvolle Goldbeere zu kultivieren.
 
-**Eigenschaft1:**
-- Description
+Die heilenden Kräfte der Beere sollen zudem stark von den [Winden der Magie](https://warhammerfantasy.fandom.com/wiki/Winds_of_Magic?so=search) während ihrer Reifung abhängen. Ihre goldene Farbe und der leichte, süßliche Duft können angeblich Hinweise auf die Potenz ihrer Wirkung geben. Voll ausgereifte Beeren können roh verzehrt oder zu einem Mus verkocht werden. Ein Umschlag aus zerstoßenen Beeren beschleunigt die Wundheilung und beugt Infektionen vor.
 
-**Eigenschaft2:**
-- Description
+### Rohe Heilbeeren:
+
+Die rohen Beeren gelten als stärkend und heilend. Bei Verzehr fördern sie die natürliche Heilung des Körpers, erhöhen die Ausdauer und stärken die Abwehrkräfte, jedoch ohne die direkte Wundschließung zu unterstützen. Daher eignet sich der Verzehr besonders für die allgemeine Genesung und Kräftigung nach Verletzungen oder langen Märschen.
+
+### Wundumschlag:
+
+Wenn die Beeren zerstoßen und sanft geköchelt werden, entstehen heilkräftige Umschläge, die direkt auf Wunden aufgelegt werden. Die entzündungshemmenden und heilungsfördernden Eigenschaften helfen, Infektionen zu vermeiden und die Genesung zu beschleunigen. Diese Behandlung ist vor allem bei Kriegern und Wanderern beliebt, die auf eine schnelle Erholung angewiesen sind.
 
 ---
 
 > [!column]
 > 
 >> [!error| no-i ttl-c] Erntbares:
->>**Loot1**
->>- Usage
->>**Loot2**
->>- Usage
+>> 
+>>**Beeren**
+>>- **Roh**: Dienen der Heilung und Ausdauerregeneration sowie der Stärkung der Abwehrkräfte, ohne direkten Einfluss auf die Wundschließung.
+>>
+>>- **Wundumschläge**: Unterstützt die allgemeine Genesung und hilft, die Kraftreserven des Körpers wieder aufzufüllen.
 >
 >> [!error| no-i ttl-c] Mythen & Sagen:
 >> 
->>**Lorefact1**
->>- Description
->>**Myth1**
->>- Description
+>>**Das mahnende Geschenk Ischas**
+>>- Wenn ein Goldbeerstrauch in einem Gebiet erblüht, glauben viele Asrai, dass Ischa selbst ihre Hand über diesen Ort hält. Doch dies ist ein zweischneidiges Omen: Die Pflanze bringt Hoffnung für jene, die den Wald schützen, doch für Eindringlinge und Verunreinigende ist sie eine stumme Warnung, dass der Zorn der Waldgeister und der Göttin nahe ist. Manche Wanderer berichten von vergessenen Lichtungen, auf denen die Goldbeere blüht – still und fremdartig, eine letzte Mahnung an jene, die mit bösen Absichten gekommen sind.
 
 ---
