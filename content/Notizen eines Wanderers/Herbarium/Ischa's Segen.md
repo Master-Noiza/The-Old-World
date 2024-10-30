@@ -1,5 +1,5 @@
 ---
-{"title":null,"draft":false,"tags":null,"publish":true,"name":"Ischa's Segen","aliases":"Goldbeere","category":"Beere,<br>Strauch","rarity":"Sehr Selten (-8)","habitat":"Unberührter Wald,<br>Klares Frischwasser","season":"Herbst","origin":"Natürlich,<br>Magisch","traits":"Medizin,<br>Heilung","path":"Notizen eines Wanderers/Herbarium/Ischa's Segen.md","permalink":"/notizen-eines-wanderers/herbarium/ischa-s-segen/","PassFrontmatter":true}
+{"title":null,"draft":false,"tags":null,"publish":true,"name":"Ischa's Segen","aliases":"Goldbeere","category":"Beere,<br>Strauch","rarity":"Sehr Selten (-8)","habitat":"Unberührter Wald,<br>Klare Fließgewässer","season":"Herbst","origin":"Natürlich,<br>Magisch","traits":"Medizin,<br>Heilung","path":"Notizen eines Wanderers/Herbarium/Ischa's Segen.md","permalink":"/notizen-eines-wanderers/herbarium/ischa-s-segen/","PassFrontmatter":true}
 ---
 
 # Ischa's Segen
@@ -10,7 +10,7 @@
 > 
 > ## **Ischa's Segen**
 > 
-> ![Ischas_Segen.webp](../../Ischas_Segen.webp)![](../../Ischas_Segen.webp)
+> ![Ischas_Segen.webp](../../Ischas_Segen.webp)
 > 
 > ## - Facts -
 > |  |  |
@@ -18,7 +18,7 @@
 > | **Aliase** | Goldbeere |
 > | **Kategorie** | Beere,<br>Strauch |
 > | **Seltenheit** | Sehr Selten (-8) |
-> | **Fundorte** | Unberührter Wald,<br>Klares Frischwasser |
+> | **Fundorte** | Unberührter Wald,<br>Klare Fließgewässer |
 > | **Saison** | Herbst |
 > | **Ursprung** | Natürlich,<br>Magisch |
 > | **Nutzen** | Medizin,<br>Heilung |
@@ -60,6 +60,6 @@ Wenn die Beeren zerstoßen und sanft geköchelt werden, entstehen heilkräftige 
 >> [!error| no-i ttl-c] Mythen & Sagen:
 >> 
 >>**Das mahnende Geschenk Ischas**
->>- Wenn ein Goldbeerstrauch in einem Gebiet erblüht, glauben viele Asrai, dass Ischa selbst ihre Hand über diesen Ort hält. Doch dies ist ein zweischneidiges Omen: Die Pflanze bringt Hoffnung für jene, die den Wald schützen, doch für Eindringlinge und Verunreinigende ist sie eine stumme Warnung, dass der Zorn der Waldgeister und der Göttin nahe ist. Manche Wanderer berichten von vergessenen Lichtungen, auf denen die Goldbeere blüht – still und fremdartig, eine letzte Mahnung an jene, die mit bösen Absichten gekommen sind.
+>>- Wenn ein Goldbeerstrauch in einem Gebiet erblüht, glauben viele Asrai, dass [Ischa](https://warhammerfantasy.fandom.com/wiki/Isha) selbst ihre Hand über diesen Ort hält. Doch dies ist ein zweischneidiges Omen: Die Pflanze bringt Hoffnung für jene, die den Wald schützen, doch für Eindringlinge und Verunreinigende ist sie eine stumme Warnung, dass der Zorn der Waldgeister und der Göttin nahe ist. Manche Wanderer berichten von vergessenen Lichtungen, auf denen die Goldbeere blüht – still und fremdartig, eine letzte Mahnung an jene, die mit bösen Absichten gekommen sind.
 
 ---
