@@ -10,7 +10,7 @@
 > 
 > ## **Ischa's Segen**
 > 
-> ![Ischas_Segen.webp](../../Ischas_Segen.webp)
+> ![Ischas_Segen.webp](../../Ischas_Segen.webp)![](../../Ischas_Segen.webp)
 > 
 > ## - Facts -
 > |  |  |
