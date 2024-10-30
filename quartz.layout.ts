@@ -1,93 +1,80 @@
-import { QuartzConfig } from "./quartz/cfg"
-import * as Plugin from "./quartz/plugins"
+import { PageLayout, SharedLayout } from "./quartz/cfg"
+import * as Component from "./quartz/components"
 
-/**
- * Quartz 4.0 Configuration
- *
- * See https://quartz.jzhao.xyz/configuration for more information.
- */
-const config: QuartzConfig = {
-  configuration: {
-    pageTitle: "Kompendium der Alten Welt",
-    enableSPA: true,
-    enablePopovers: true,
-    analytics: {
-      provider: "plausible",
+// components shared across all pages
+export const sharedPageComponents: SharedLayout = {
+  head: Component.Head(),
+  header: [],
+  afterBody: [],
+  footer: Component.Footer({
+    links: {
+      GitHub: "https://github.com/jackyzha0/quartz",
+      "Discord Community": "https://discord.gg/cRFFHYye7t",
     },
-    locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "created",
-    theme: {
-      fontOrigin: "googleFonts",
-      cdnCaching: true,
-      typography: {
-        header: "Alegreya SC",
-        body: "Fraunces",
-        code: "IBM Plex Mono",
-      },
-      colors: {
-        lightMode: {
-          light: "#fddeb3",
-          lightgray: "#f1d9b8",
-          gray: "#c83939",
-          darkgray: "#4e4e4e",
-          dark: "#c14343",
-          secondary: "#4e4e4e",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
-        },
-        darkMode: {
-          light: "#1a1e24",
-          lightgray: "#1c2532",
-          gray: "#922f2f",
-          darkgray: "#9da9b5",
-          dark: "#c14343",
-          secondary: "#9da9b5",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
-        },
-      },
-    },
-  },
-  plugins: {
-    transformers: [
-      Plugin.FrontMatter(),
-      Plugin.CreatedModifiedDate({
-        priority: ["frontmatter", "filesystem"],
-      }),
-      Plugin.SyntaxHighlighting({
-        theme: {
-          light: "github-light",
-          dark: "github-dark",
-        },
-        keepBackground: false,
-      }),
-      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
-      Plugin.GitHubFlavoredMarkdown(),
-      Plugin.TableOfContents(),
-      Plugin.CrawlLinks({ markdownLinkResolution: "relative" }),
-      Plugin.Description(),
-      Plugin.Latex({ renderEngine: "katex" }),
-    ],
-    filters: [Plugin.RemoveDrafts()],
-    emitters: [
-      Plugin.AliasRedirects(),
-      Plugin.ComponentResources(),
-      Plugin.ContentPage(),
-      Plugin.FolderPage(),
-      Plugin.TagPage(),
-      Plugin.ContentIndex({
-        enableSiteMap: true,
-        enableRSS: true,
-      }),
-      Plugin.Assets(),
-      Plugin.Static(),
-      Plugin.NotFoundPage(),
-    ],
-  },
+  }),
 }
 
-export default config
+// components for pages that display a single page (e.g. a single note)
+export const defaultContentPageLayout: PageLayout = {
+  beforeBody: [
+    Component.Breadcrumbs(),
+  ],
+  left: [
+    Component.PageTitle(),
+    Component.MobileOnly(Component.Spacer()),
+    Component.Search(),
+    Component.Darkmode(),
+    Component.DesktopOnly(Component.Explorer({
+  sortFn: (a, b) => {
+    const nameOrderMap: Record<string, number> = {
+      "The Magic": 100,
+      "Atlas": 200,
+      "Gods & Religion": 300,
+      "The Races": 400,
+      "Dramatis Personae": 500,
+      "Organizations": 600,
+      "Herbarium": 700,
+      "Mechanics": 800,
+      "OOC": 900,
+    }
+ 
+    let orderA = 0
+    let orderB = 0
+ 
+    if (a.file && a.file.slug) {
+      orderA = nameOrderMap[a.file.slug] || 0
+    } else if (a.name) {
+      orderA = nameOrderMap[a.name] || 0
+    }
+ 
+    if (b.file && b.file.slug) {
+      orderB = nameOrderMap[b.file.slug] || 0
+    } else if (b.name) {
+      orderB = nameOrderMap[b.name] || 0
+    }
+ 
+    return orderA - orderB
+  },
+})),
+  ],
+  right: [
+    Component.DesktopOnly(Component.TableOfContents()),
+    Component.Backlinks(),
+  ],
+}
+
+// components for pages that display lists of pages  (e.g. tags or folders)
+export const defaultListPageLayout: PageLayout = {
+  beforeBody: [Component.Breadcrumbs()],
+  left: [
+    Component.PageTitle(),
+    Component.MobileOnly(Component.Spacer()),
+    Component.Search(),
+    Component.Darkmode(),
+    Component.DesktopOnly(Component.Explorer()),
+  ],
+  right: [
+    Component.DesktopOnly(Component.TableOfContents()),
+    Component.Backlinks(),
+  ],
+}
