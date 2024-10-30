@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Vilenought Wiki",
+    pageTitle: "Kompendium der Alten Welt",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
