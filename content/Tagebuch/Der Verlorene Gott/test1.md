@@ -23,8 +23,9 @@
 
 <br>
 
-> [!recite| clean no-i] # Ereignisse:
-> Auf der Spur des Bären
+## Ereignisse:
+
+Auf der Spur des Bären
 Das Reich der Eiskönigin – Zarenreich Kislev. Praag. Die nördlichste Stadt Kislevs.
 Hier befinden sich Menschen um Yuri, welcher auf einem Karren eines Trupps (250) steht. Plattenrüstung, grauer Pelz, langes schwarzes Haar und Bart. Diese Versammlung stellt eine Armee Kislevs dar. Mit dabei sind auch Norskaaner, die sich seit langer Zeit eigentlich nicht in die Städte wagten.
 Die Königin, Katharina die Große, sendet diesen Trupp um Kislev zu verteidigen.
