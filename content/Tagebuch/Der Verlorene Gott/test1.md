@@ -8,18 +8,21 @@
 
 > [!infobox| c-red]
 >
+>
+> ### Auf der Spur des Bären
+>
 > ![Journal1.webp](../../Journal1.webp)
-> # Auf der Spur des Bären
+> 
 > |  |  |
 > | ---- | ---- |
-> | **RL Datum** | 2022-06-02T00:00:00.000+02:00 |
+> | **RL Datum** | 02.06.2022 |
 > | **Ereignisse von** | - |
 > | **bis** | - |
 > | **Dramatis Personae** | Yuri Barkov,<br>Mikael Grinkov,<br>Vasili Eikrev,<br>Ursun |
 > | **Orte Besucht** | Praag,<br>Schwarzblut-Pass,<br>Schrein im Schwarzblut-Pass |
 > | **Ziele & Pläne** | Ursun finden,<br>Dervingard erreichen,<br>Ein Zeichen erhalten |
 > | **Erfolge** | Ein Zeichen erhalten,<br>Moral gestärkt |
-> | **Gegenstände** | `=[[DVG Ep1]].Loot` |
+> | **Gegenstände** | Zeug |
 
 <br>
 
