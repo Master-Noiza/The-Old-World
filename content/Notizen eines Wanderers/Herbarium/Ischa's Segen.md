@@ -12,7 +12,7 @@
 > 
 > ![Ischas_Segen.webp](../../Ischas_Segen.webp)
 > 
-> ## - Facts -
+> ## - Fakten -
 > |  |  |
 > | ---- | ---- |
 > | **Aliase** | Goldbeere |
