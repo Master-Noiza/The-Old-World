@@ -29,6 +29,8 @@
  |
 > | **Gegenstände** | `=[[DVG Ep1]].Loot` |
 
+<br>
+
 > [!recite| clean no-i] # Ereignisse:
 > Auf der Spur des Bären
 Das Reich der Eiskönigin – Zarenreich Kislev. Praag. Die nördlichste Stadt Kislevs.
