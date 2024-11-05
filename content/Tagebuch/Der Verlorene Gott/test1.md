@@ -22,7 +22,7 @@
 > | **Orte Besucht** | Praag,<br>Schwarzblut-Pass,<br>Schrein im Schwarzblut-Pass |
 > | **Ziele & Pläne** | Ursun finden,<br>Dervingard erreichen,<br>Ein Zeichen erhalten |
 > | **Erfolge** | Ein Zeichen erhalten,<br>Moral gestärkt |
-> | **Gegenstände** | Zeug |
+> | **Gegenstände** | `=[[DVG Ep1]].Loot` |
 
 <br>
 
