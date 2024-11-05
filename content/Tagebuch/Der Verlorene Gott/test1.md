@@ -13,20 +13,12 @@
 > |  |  |
 > | ---- | ---- |
 > | **RL Datum** | 2022-06-02T00:00:00.000+02:00 |
-> | **Ereignisse von** |  |
-> | **bis** |  |
-> | **Dramatis Personae** | Yuri Barkov,Mikael Grinkov,Vasili Eikrev,Ursun |
-> | **Orte Besucht** | - Praag
-- Schwarzblut-Pass
-- Schrein im Schwarzblut-Pass
- |
-> | **Ziele & Pläne** | - Ursun finden,
-- Dervingard erreichen,
-- Ein Zeichen erhalten
- |
-> | **Erfolge** | - Ein Zeichen erhalten
-- Moral gestärkt
- |
+> | **Ereignisse von** | - |
+> | **bis** | - |
+> | **Dramatis Personae** | Yuri Barkov,<br>Mikael Grinkov,<br>Vasili Eikrev,<br>Ursun |
+> | **Orte Besucht** | Praag,<br>Schwarzblut-Pass,<br>Schrein im Schwarzblut-Pass |
+> | **Ziele & Pläne** | Ursun finden,<br>Dervingard erreichen,<br>Ein Zeichen erhalten |
+> | **Erfolge** | Ein Zeichen erhalten,<br>Moral gestärkt |
 > | **Gegenstände** | `=[[DVG Ep1]].Loot` |
 
 <br>
